@@ -22,7 +22,8 @@
     "url": "https://github.com/Ishy-Fishy/techmagic-hr-eb-versionCleanup/issues"
   },
   "homepage": "https://github.com/Ishy-Fishy/techmagic-hr-eb-versionCleanup#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "aws-sdk": "^2.41.0",
     "node-lambda": "^0.8.15"
   }
