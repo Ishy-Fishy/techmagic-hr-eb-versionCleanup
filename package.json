@@ -1,0 +1,29 @@
+{
+  "name": "techmagic-hr-eb-version-cleanup",
+  "version": "0.0.1",
+  "description": "Lambda function for cleaning outdated Elastic Beanstalk app versions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lambda": "node-lambda run --runtime nodejs6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishy-Fishy/techmagic-hr-eb-versionCleanup.git"
+  },
+  "keywords": [
+    "eb",
+    "aws",
+    "scheduled"
+  ],
+  "author": "Ishy-Fishy",
+  "license": " GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ishy-Fishy/techmagic-hr-eb-versionCleanup/issues"
+  },
+  "homepage": "https://github.com/Ishy-Fishy/techmagic-hr-eb-versionCleanup#readme",
+  "dependencies": {
+    "aws-sdk": "^2.41.0",
+    "node-lambda": "^0.8.15"
+  }
+}
